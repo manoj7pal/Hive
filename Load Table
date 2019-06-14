@@ -1,0 +1,9 @@
+    
+--http://www.edureka.co/blog/hive-commands/
+
+--LOCAL Data Load: Path is of Local FS. Hence LOCAL keyword.
+
+LOAD DATA LOCAL INPATH "/mnt/home/edureka_512006/datasets/NYSE_daily_prices_Q.csv" OVERWRITE INTO TABLE NYSE;
+
+
+
